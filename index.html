@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fav icon -->
+    <link rel="icon" type="image/png" href="img/valuebound.png" sizes="16x16">
+    <title>Log In</title>
+</head>
+
+<body>
+    <!-- all the divs in this page is contained by container here -->
+    <div class="container">
+        <!-- Image of Valuebound -->
+        <div class="image">
+            <img src="img/valuebound.png" alt="valuebound">
+        </div>
+        <!-- Login container : It is the parent div of login items -->
+        <div class="login">
+            <!-- <h2 class="title">Log In</h2> -->
+
+            <!-- FORM -->
+            <form action="">
+                <!-- Username and its label  -->
+                <div class="username-div item-container">
+                    <label for="username" class="block form-item">Username</label>
+                    <input type="text" class="block form-item input username" name="username" maxlength="10"
+                        minlength="5">
+                </div>
+
+                <!-- Password and its label -->
+                <div class="password-div item-container">
+                    <label for="password" class="block form-item">Password</label>
+                    <input type="password" class="block form-item input password" name="password" maxlength="15"
+                        minlength="10">
+                </div>
+
+                 <!-- Check Box and its label -->
+                <div class="input-checkbox form-item item-container">
+                    <label for="remember-me" ><input type="checkbox" name="remember-me" id="remember-me" class="input">Remember Me</label>
+                </div>
+
+                <!-- Submit button -->
+                <div class="submit-div item-container">
+                    <input type="submit" class="block form-item submit-btn" value="Login">
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
