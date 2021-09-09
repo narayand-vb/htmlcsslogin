@@ -16,7 +16,7 @@ html {
 
 /* Main container having both image and login */
 .container{
-  height: 98vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1.7fr 1fr;
 }
